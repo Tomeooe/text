@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+</head>
+
+<body>
+    {volist name="list" id="vo"} {$vo.id}====>{$vo.name}<br/> {/volist} {foreach $list as $value} {$value.id}::{$value.name} <br/> {/foreach}
+</body>
+
+</html>
